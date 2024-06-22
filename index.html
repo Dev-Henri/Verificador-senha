@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verificador de senha</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="scrpit.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Verificador de força de senha</h2>
+      <p>Insira uma senha para verificar sua força:</p>
+      <input
+        type="password"
+        name=""
+        id="passwordInput"
+        placeholder="Digite sua senha"
+      />
+      <div class="password-strength-bar">
+        <div id="password-strength-indicator" class="strength-indicator"></div>
+      </div>
+      <p id="password-strength-text">senha fraca</p>
+      <p id="tip">
+        Sua senha precisa conter letras minúsculas e maiúsculas, números e
+        caracteres especiais
+      </p>
+    </div>
+  </body>
+</html>
